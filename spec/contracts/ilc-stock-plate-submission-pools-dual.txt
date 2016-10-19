@@ -2,16 +2,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-"actions":
-  {"read":
-    "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1",
-   "first":
-    "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1",
-   "last":
-    "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1"},
- "size":1,
- "submission_pools":[{
-    "plates_in_submission":2,
-    "used_tag2_layout_templates":[{"uuid":"used-tag2-template-uuid","name":"Used template"}]
- }]
- }
+  "actions": {
+    "read": "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1",
+    "first": "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1",
+    "last": "http://localhost:3000/ilc-stock-plate-uuid/submission_pools/1"
+  },
+  "size": 1,
+  "submission_pools": [
+    {
+      "plates_in_submission": 2,
+      "used_tag2_layout_templates": [
+        {
+          "uuid": "used-tag2-template-uuid",
+          "name": "Used template"
+        }
+      ]
+    }
+  ]
+}

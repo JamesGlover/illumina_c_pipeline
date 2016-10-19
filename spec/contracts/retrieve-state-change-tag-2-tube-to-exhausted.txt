@@ -4,4 +4,11 @@ Content-Type: application/json
 Cookie: WTSISignOn=
 X-Sequencescape-Client-Id: testing
 
-{"state_change":{"reason":"Used in library creation","target_state":"exhausted","user":"user-uuid","target":"tag-2-tube-uuid"}}
+{
+  "state_change": {
+    "reason": "Used in library creation",
+    "target_state": "exhausted",
+    "user": "user-uuid",
+    "target": "tag-2-tube-uuid"
+  }
+}

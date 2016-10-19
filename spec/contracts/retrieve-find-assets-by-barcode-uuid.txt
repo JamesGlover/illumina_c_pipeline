@@ -1,0 +1,4 @@
+GET /find-assets-by-barcode-uuid HTTP/1.1
+Accept: application/json
+Cookie: WTSISignOn=
+X-Sequencescape-Client-Id: testing

@@ -1,0 +1,6 @@
+POST /find-user-by-swipecard-uuid/first HTTP/1.1
+Accept: application/json
+Cookie: WTSISignOn=
+X-Sequencescape-Client-Id: testing
+
+{"search":{"swipecard_code":"abcdef"}}

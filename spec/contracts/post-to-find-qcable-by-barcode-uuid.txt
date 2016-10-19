@@ -2,4 +2,32 @@ HTTP/1.0 301 Moved permanently
 Content-Type: application/json
 Location: http://localhost:3000/tag2-qcable-uuid
 
-{"qcable":{"created_at":"2015-08-17 15:40:36 +0100","updated_at":"2015-08-17 15:53:16 +0100","asset":{"actions":{"read":"http://localhost:3000/tag2-tube-uuid"},"uuid":"tag2-tube-uuid"},"lot":{"actions":{"read":"http://localhost:3000/tag2-lot-uuid"},"uuid":"tag2-lot-uuid"},"actions":{"read":"http://localhost:3000/tag2-qcable-uuid"},"uuid":"tag2-qcable-uuid","barcode":{"ean13":"3980681751743","number":"681751","prefix":"NT"},"stamp_index":null,"state":"available"}}
+{
+  "qcable": {
+    "created_at": "2015-08-17 15:40:36 +0100",
+    "updated_at": "2015-08-17 15:53:16 +0100",
+    "asset": {
+      "actions": {
+        "read": "http://localhost:3000/tag2-tube-uuid"
+      },
+      "uuid": "tag2-tube-uuid"
+    },
+    "lot": {
+      "actions": {
+        "read": "http://localhost:3000/tag2-lot-uuid"
+      },
+      "uuid": "tag2-lot-uuid"
+    },
+    "actions": {
+      "read": "http://localhost:3000/tag2-qcable-uuid"
+    },
+    "uuid": "tag2-qcable-uuid",
+    "barcode": {
+      "ean13": "3980681751743",
+      "number": "681751",
+      "prefix": "NT"
+    },
+    "stamp_index": null,
+    "state": "available"
+  }
+}

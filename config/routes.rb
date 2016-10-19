@@ -33,6 +33,8 @@ IlluminaCPipeline::Application.routes.draw do
 
   resources :tag_plates, only: :show
 
+  resources  :multiple_target_state_change, only: :create
+
   # This is a hack untill I get tube coercion working
   resources :sequencescape_tubes, :controller => :tubes do
     resources :qc_files, :controller => :qc_files

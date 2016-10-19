@@ -22,9 +22,15 @@ group :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'webmock'
+
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'phantomjs'
+  gem 'poltergeist'
 end
 group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'ruby-debug-base19x'
   gem 'pry'
 end
 

@@ -34,7 +34,8 @@ module ContractHelper
       end
     end
 
-    def response(contract_name)
+    def response(contract_name, num=1)
+      @num = num
       contract(contract_name) do |file|
         @content = file.read
       end
@@ -57,7 +58,7 @@ module ContractHelper
     private :setup_request_and_response_mock
 
     def validate_request_and_response_called(scope)
-      scope.expect(a_request(@http_verb, @url).with(@conditions)).to have_been_made
+      scope.expect(a_request(@http_verb, @url).with(@conditions)).to have_been_made.times(@num)
     end
     private :validate_request_and_response_called
 
@@ -80,12 +81,12 @@ module ContractHelper
       stubbed_request.inject_into(self)
     end
 
-    def stub_request_and_response(contract_name)
-      stub_request_from("retrieve-#{contract_name}") { response(contract_name) }
+    def stub_request_and_response(contract_name, num=1)
+      stub_request_from("retrieve-#{contract_name}") { response(contract_name, num) }
     end
 
-    def has_a_working_api
-      stub_request_from('retrieve-api-root') { response('api-root') }
+    def has_a_working_api(num=1)
+      stub_request_from('retrieve-api-root') { response('api-root', num) }
       let(:api) do
         Sequencescape::Api.new(
           :url => 'http://localhost:3000/', :cookie => nil,

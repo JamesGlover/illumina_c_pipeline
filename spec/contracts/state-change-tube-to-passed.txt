@@ -1,0 +1,16 @@
+HTTP/1.1 201 OK
+Content-Type: application/json
+
+{
+  "state_change": {
+    "actions": {
+      "read": "http://localhost:3000/state-change-tube-to-passed-uuid"
+    },
+    "target": {
+      "actions": {
+        "read": "http://localhost:3000/tube-uuid"
+      }
+    },
+    "target_state": "passed"
+  }
+}

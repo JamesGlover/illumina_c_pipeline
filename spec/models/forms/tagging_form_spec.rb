@@ -145,6 +145,8 @@ describe Forms::TaggingForm do
         # Apply the tag-group to the whole plate with no offset, starting at 1.
         stub_request_and_response('tag-layout-creation-a')
 
+        Settings.transfer_templates['Custom pooling'] = 'custom-plate-transfer-template-uuid'
+
         it 'creates a tag plate' do
           tagging_form.save!
         end

@@ -3,9 +3,9 @@ Content-Type: application/json
 
 {
   "actions": {
-    "read": "http://localhost:3000/ilc-stock-plate-uuid/wells/1",
-    "first": "http://localhost:3000/ilc-stock-plate-uuid/wells/1",
-    "last": "http://localhost:3000/ilc-stock-plate-uuid/wells/1"
+    "read": "http://localhost:3000/final-plate-uuid/wells/1",
+    "first": "http://localhost:3000/final-plate-uuid/wells/1",
+    "last": "http://localhost:3000/final-plate-uuid/wells/1"
   },
   "size": 30,
   "wells": [
@@ -14,9 +14,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-1-uuid"
@@ -128,9 +128,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-2-uuid"
@@ -242,9 +242,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-3-uuid"
@@ -356,9 +356,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-4-uuid"
@@ -470,9 +470,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-5-uuid"
@@ -584,9 +584,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-6-uuid"
@@ -698,9 +698,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-7-uuid"
@@ -812,9 +812,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-8-uuid"
@@ -926,9 +926,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-9-uuid"
@@ -1040,9 +1040,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-10-uuid"
@@ -1154,9 +1154,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-11-uuid"
@@ -1268,9 +1268,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-12-uuid"
@@ -1382,9 +1382,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-13-uuid"
@@ -1496,9 +1496,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-14-uuid"
@@ -1610,9 +1610,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-15-uuid"
@@ -1724,9 +1724,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-16-uuid"
@@ -1838,9 +1838,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-17-uuid"
@@ -1952,9 +1952,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-18-uuid"
@@ -2066,9 +2066,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-19-uuid"
@@ -2180,9 +2180,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-20-uuid"
@@ -2294,9 +2294,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-21-uuid"
@@ -2408,9 +2408,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-22-uuid"
@@ -2522,9 +2522,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-23-uuid"
@@ -2636,9 +2636,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-24-uuid"
@@ -2750,9 +2750,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-25-uuid"
@@ -2864,9 +2864,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-26-uuid"
@@ -2978,9 +2978,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-27-uuid"
@@ -3092,9 +3092,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-28-uuid"
@@ -3206,9 +3206,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-29-uuid"
@@ -3320,9 +3320,9 @@ Content-Type: application/json
       "updated_at": "2016-01-21 16:08:28 +0000",
       "plate": {
         "actions": {
-          "read": "http://localhost:3000/ilc-stock-plate-uuid"
+          "read": "http://localhost:3000/final-plate-uuid"
         },
-        "uuid": "ilc-stock-plate-uuid"
+        "uuid": "final-plate-uuid"
       },
       "actions": {
         "read": "http://localhost:3000/well-30-uuid"

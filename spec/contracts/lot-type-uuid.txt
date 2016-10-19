@@ -1,4 +1,23 @@
 HTTP/1.1 200 OK
 Content-Type: application/json
 
-{"lot_type":{"created_at":"2015-07-23 14:07:07 +0100","updated_at":"2015-07-23 14:07:07 +0100","lots":{"size":6,"actions":{"read":"http://localhost:3000/lot-type-uuid/lots"}},"actions":{"read":"http://localhost:3000/lot-type-uuid"},"uuid":"lot-type-uuid","name":"Tag 2 Tubes","printer_type":"1D Tube","qcable_name":"Tag 2 Tube","template_class":"Tag2LayoutTemplate"}}
+{
+  "lot_type": {
+    "created_at": "2015-07-23 14:07:07 +0100",
+    "updated_at": "2015-07-23 14:07:07 +0100",
+    "lots": {
+      "size": 6,
+      "actions": {
+        "read": "http://localhost:3000/lot-type-uuid/lots"
+      }
+    },
+    "actions": {
+      "read": "http://localhost:3000/lot-type-uuid"
+    },
+    "uuid": "lot-type-uuid",
+    "name": "Tag 2 Tubes",
+    "printer_type": "1D Tube",
+    "qcable_name": "Tag 2 Tube",
+    "template_class": "Tag2LayoutTemplate"
+  }
+}

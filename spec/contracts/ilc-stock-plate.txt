@@ -1,4 +1,154 @@
 HTTP/1.1 200 OK
 Content-Type: application/json
 
-{"plate":{"created_at":"2016-01-21 16:08:28 +0000","updated_at":"2016-01-21 16:16:42 +0000","comments":{"size":3,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/comments"}},"wells":{"size":30,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/wells"}},"submission_pools":{"size":2,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/submission_pools"}},"requests":{"size":0,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/requests"}},"qc_files":{"size":0,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/qc_files"}},"source_transfers":{"size":0,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/source_transfers"}},"transfers_to_tubes":{"size":0,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/transfers_to_tubes"}},"creation_transfers":{"size":0,"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid/creation_transfers"}},"plate_purpose":{"actions":{"read":"http://localhost:3000/ilc-stock-plate-purpose-uuid"},"uuid":"ilc-stock-plate-purpose-uuid","lifespan":null,"name":"ILC Stock"},"actions":{"read":"http://localhost:3000/ilc-stock-plate-uuid"},"uuid":"ilc-stock-plate-uuid","name":"Cherrypicked 427444","qc_state":null,"barcode":{"ean13":"1220427444877","number":"427444","prefix":"DN","two_dimensional":null,"type":1},"iteration":1,"label":{"prefix":"RNA-seq dUTP eukaryotic PCR","text":"ILC Stock"},"location":"Library creation freezer","pools":{"pool-1-uuid":{"wells":["A1","A2","B1","B2","C1","C2","D1","D2","E1","E2","F1","F2","G1","G2","H1"],"insert_size":{"from":100,"to":300},"library_type":{"name":"RNA-seq dUTP eukaryotic"},"request_type":"Illumina-C Library Creation PCR"},"pool-2-uuid":{"wells":["A3","A4","B3","B4","C3","C4","D3","D4","E3","E4","F3","F4","G3","H2","H3"],"insert_size":{"from":100,"to":300},"library_type":{"name":"RNA-seq dUTP eukaryotic"},"request_type":"Illumina-C Library Creation PCR"}},"pre_cap_groups":{},"priority":0,"size":96,"state":"passed","stock_plate":{"barcode":{"ean13":"1220427444877","number":"427444","prefix":"DN","two_dimensional":null,"type":1},"uuid":"ilc-stock-plate-uuid"}}}
+{
+  "plate": {
+    "created_at": "2016-01-21 16:08:28 +0000",
+    "updated_at": "2016-01-21 16:16:42 +0000",
+    "comments": {
+      "size": 3,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/comments"
+      }
+    },
+    "wells": {
+      "size": 30,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/wells"
+      }
+    },
+    "submission_pools": {
+      "size": 2,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/submission_pools"
+      }
+    },
+    "requests": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/requests"
+      }
+    },
+    "qc_files": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/qc_files"
+      }
+    },
+    "source_transfers": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/source_transfers"
+      }
+    },
+    "transfers_to_tubes": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/transfers_to_tubes"
+      }
+    },
+    "creation_transfers": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-uuid/creation_transfers"
+      }
+    },
+    "plate_purpose": {
+      "actions": {
+        "read": "http://localhost:3000/ilc-stock-plate-purpose-uuid"
+      },
+      "uuid": "ilc-stock-plate-purpose-uuid",
+      "lifespan": null,
+      "name": "ILC Stock"
+    },
+    "actions": {
+      "read": "http://localhost:3000/ilc-stock-plate-uuid"
+    },
+    "uuid": "ilc-stock-plate-uuid",
+    "name": "Cherrypicked 427444",
+    "qc_state": null,
+    "barcode": {
+      "ean13": "1220427444877",
+      "number": "427444",
+      "prefix": "DN",
+      "two_dimensional": null,
+      "type": 1
+    },
+    "iteration": 1,
+    "label": {
+      "prefix": "RNA-seq dUTP eukaryotic PCR",
+      "text": "ILC Stock"
+    },
+    "location": "Library creation freezer",
+    "pools": {
+      "pool-1-uuid": {
+        "wells": [
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2",
+          "D1",
+          "D2",
+          "E1",
+          "E2",
+          "F1",
+          "F2",
+          "G1",
+          "G2",
+          "H1"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 300
+        },
+        "library_type": {
+          "name": "RNA-seq dUTP eukaryotic"
+        },
+        "request_type": "Illumina-C Library Creation PCR"
+      },
+      "pool-2-uuid": {
+        "wells": [
+          "A3",
+          "A4",
+          "B3",
+          "B4",
+          "C3",
+          "C4",
+          "D3",
+          "D4",
+          "E3",
+          "E4",
+          "F3",
+          "F4",
+          "G3",
+          "H2",
+          "H3"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 300
+        },
+        "library_type": {
+          "name": "RNA-seq dUTP eukaryotic"
+        },
+        "request_type": "Illumina-C Library Creation PCR"
+      }
+    },
+    "pre_cap_groups": {},
+    "priority": 0,
+    "size": 96,
+    "state": "passed",
+    "stock_plate": {
+      "barcode": {
+        "ean13": "1220427444877",
+        "number": "427444",
+        "prefix": "DN",
+        "two_dimensional": null,
+        "type": 1
+      },
+      "uuid": "ilc-stock-plate-uuid"
+    }
+  }
+}

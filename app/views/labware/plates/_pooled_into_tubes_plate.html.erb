@@ -9,9 +9,12 @@
   <%= render :partial => 'plate_information', :locals => { :plate => presenter.labware } %>
 
   <h2>Tubes</h2>
-   <% presenter.labware.tubes_and_sources.each do |tube, sources| %>
-     <%= render :partial => 'labware/pooled_tube.html.erb', :locals => {:tube => tube, :source => sources } %>
-   <% end %>
+    <%= form_tag(multiple_target_state_change_index_path, method: "post") do %>
+      <%= submit_tag("Pass all tubes", disabled: !current_user_uuid.present?)%>
+      <% presenter.labware.tubes_and_sources.each do |tube, sources| %>
+       <%= render :partial => 'labware/pooled_tube.html.erb', :locals => {:tube => tube, :source => sources } %>
+      <% end %>
+    <% end %>
 <% end %>
 
 <% @presenter.control_tube_create do %>

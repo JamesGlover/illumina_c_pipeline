@@ -1,0 +1,166 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "actions": {
+    "read": "http://localhost:3000/barcode_printers/1",
+    "first": "http://localhost:3000/barcode_printers/1",
+    "last": "http://localhost:3000/barcode_printers/1"
+  },
+  "size": 12,
+  "barcode_printers": [
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g312bc2",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 1,
+        "name": "96 Well Plate"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g311bc2",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 1,
+        "name": "96 Well Plate"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g316bc",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 1,
+        "name": "96 Well Plate"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g317bc",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 1,
+        "name": "96 Well Plate"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g314bc",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 1,
+        "name": "96 Well Plate"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:49:00 +0100",
+      "updated_at": "2016-09-15 15:49:00 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "g311bc1",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 2,
+        "name": "1D Tube"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:50:44 +0100",
+      "updated_at": "2016-09-15 15:50:44 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "h105bc2",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 2,
+        "name": "1D Tube"
+      }
+    },
+    {
+      "created_at": "2016-09-15 15:50:52 +0100",
+      "updated_at": "2016-09-15 15:50:52 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": null,
+      "name": "h105bc",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 2,
+        "name": "1D Tube"
+      }
+    },
+    {
+      "created_at": "2016-09-23 09:21:20 +0100",
+      "updated_at": "2016-09-23 09:21:20 +0100",
+      "actions": {
+        "read": "http://localhost:3000/barcode-printer-uuid"
+      },
+      "uuid": "barcode-printer-uuid",
+      "active": true,
+      "name": "384abc",
+      "service": {
+        "url": "http://localhost:9998/barcode_service.wsdl"
+      },
+      "type": {
+        "layout": 6,
+        "name": "384 Well Plate"
+      }
+    }
+  ]
+}

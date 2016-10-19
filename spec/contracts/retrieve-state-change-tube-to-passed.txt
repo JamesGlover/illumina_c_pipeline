@@ -1,0 +1,15 @@
+POST /state_changes HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Cookie: WTSISignOn=
+X-Sequencescape-Client-Id: testing
+
+{
+  "state_change": {
+    "target_state": "passed",
+    "reason": null,
+    "customer_accepts_responsibility": false,
+    "target": "multiplexed-library-tube-uuid",
+    "user": "user-uuid"
+  }
+}

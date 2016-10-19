@@ -1,0 +1,246 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "plate": {
+    "created_at": "2016-09-16 10:14:03 +0100",
+    "updated_at": "2016-09-16 10:14:04 +0100",
+    "comments": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/comments",
+        "create": "http://localhost:3000/final-plate-uuid/comments"
+      }
+    },
+    "wells": {
+      "size": 96,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/wells"
+      }
+    },
+    "submission_pools": {
+      "size": 4,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/submission_pools"
+      }
+    },
+    "requests": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/requests"
+      }
+    },
+    "qc_files": {
+      "size": 0,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/qc_files",
+        "create": "http://localhost:3000/final-plate-uuid/qc_files"
+      }
+    },
+    "source_transfers": {
+      "size": 1,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/source_transfers"
+      }
+    },
+    "transfers_to_tubes": {
+      "size": 1,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/transfers_to_tubes"
+      }
+    },
+    "creation_transfers": {
+      "size": 1,
+      "actions": {
+        "read": "http://localhost:3000/final-plate-uuid/creation_transfers"
+      }
+    },
+    "plate_purpose": {
+      "actions": {
+        "read": "http://localhost:3000/ilc-al-libs-tagged-uuid"
+      },
+      "uuid": "ilc-al-libs-tagged-uuid",
+      "lifespan": null,
+      "name": "ILC AL Libs Tagged"
+    },
+    "actions": {
+      "read": "http://localhost:3000/final-plate-uuid"
+    },
+    "uuid": "final-plate-uuid",
+    "name": "Plate number",
+    "qc_state": null,
+    "barcode": {
+      "ean13": "0123456789012",
+      "number": "number",
+      "prefix": "DN",
+      "two_dimensional": null,
+      "type": 1
+    },
+    "iteration": 1,
+    "label": {
+      "prefix": "No PCR (Plate) ",
+      "text": "ILC AL Libs Tagged"
+    },
+    "location": "Library creation freezer",
+    "pools": {
+      "submission-1-uuid": {
+        "wells": [
+          "A4",
+          "A5",
+          "A6",
+          "B4",
+          "B5",
+          "B6",
+          "C4",
+          "C5",
+          "C6",
+          "D4",
+          "D5",
+          "D6",
+          "E4",
+          "E5",
+          "E6",
+          "F4",
+          "F5",
+          "F6",
+          "G4",
+          "G5",
+          "G6",
+          "H4",
+          "H5",
+          "H6"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 150
+        },
+        "library_type": {
+          "name": "No PCR (Plate)"
+        },
+        "request_type": "Illumina-C Library Creation No PCR"
+      },
+      "submission-2-uuid": {
+        "wells": [
+          "A7",
+          "A8",
+          "A9",
+          "B7",
+          "B8",
+          "B9",
+          "C7",
+          "C8",
+          "C9",
+          "D7",
+          "D8",
+          "D9",
+          "E7",
+          "E8",
+          "E9",
+          "F7",
+          "F8",
+          "F9",
+          "G7",
+          "G8",
+          "G9",
+          "H7",
+          "H8",
+          "H9"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 150
+        },
+        "library_type": {
+          "name": "No PCR (Plate)"
+        },
+        "request_type": "Illumina-C Library Creation No PCR"
+      },
+      "submission-3-uuid": {
+        "wells": [
+          "A10",
+          "A11",
+          "A12",
+          "B10",
+          "B11",
+          "B12",
+          "C10",
+          "C11",
+          "C12",
+          "D10",
+          "D11",
+          "D12",
+          "E10",
+          "E11",
+          "E12",
+          "F10",
+          "F11",
+          "F12",
+          "G10",
+          "G11",
+          "G12",
+          "H10",
+          "H11",
+          "H12"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 150
+        },
+        "library_type": {
+          "name": "No PCR (Plate)"
+        },
+        "request_type": "Illumina-C Library Creation No PCR"
+      },
+      "submission-4-uuid": {
+        "wells": [
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3",
+          "C1",
+          "C2",
+          "C3",
+          "D1",
+          "D2",
+          "D3",
+          "E1",
+          "E2",
+          "E3",
+          "F1",
+          "F2",
+          "F3",
+          "G1",
+          "G2",
+          "G3",
+          "H1",
+          "H2",
+          "H3"
+        ],
+        "insert_size": {
+          "from": 100,
+          "to": 150
+        },
+        "library_type": {
+          "name": "No PCR (Plate)"
+        },
+        "request_type": "Illumina-C Library Creation No PCR"
+      }
+    },
+    "pre_cap_groups": {},
+    "priority": 0,
+    "size": 96,
+    "state": "qc_complete",
+    "stock_plate": {
+      "barcode": {
+        "ean13": "9876543210987",
+        "number": "12",
+        "prefix": "DN",
+        "two_dimensional": null,
+        "type": 1
+      },
+      "uuid": "stock-plate-uuid"
+    }
+  }
+}

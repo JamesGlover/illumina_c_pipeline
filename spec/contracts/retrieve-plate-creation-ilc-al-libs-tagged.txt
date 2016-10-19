@@ -4,4 +4,10 @@ Content-Type: application/json
 Cookie: WTSISignOn=
 X-Sequencescape-Client-Id: testing
 
-{"plate_creation":{"parent":"ilc-stock-plate-uuid","child_purpose":"ilc-al-libs-tagged-uuid","user":"user-uuid"}}
+{
+  "plate_creation": {
+    "parent": "ilc-stock-plate-uuid",
+    "child_purpose": "ilc-al-libs-tagged-uuid",
+    "user": "user-uuid"
+  }
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag "jquery-mobile", "formtastic", "screen" %>
-    <% custom_theme do |theme| %>
+    <%= custom_theme do |theme| %>
       <%= stylesheet_link_tag "#{theme}.min" %>
     <% end %>
     <%= stylesheet_link_tag "print", :media=>'print' %>

@@ -1,0 +1,6 @@
+POST /find-assets-by-barcode-uuid/first HTTP/1.1
+Accept: application/json
+Cookie: WTSISignOn=
+X-Sequencescape-Client-Id: testing
+
+{"search":{"barcode":"0123456789012"}}

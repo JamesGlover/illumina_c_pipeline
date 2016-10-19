@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "actions": {
+    "read": "http://localhost:3000/api/1/final-plate-uuid/comments/1",
+    "first": "http://localhost:3000/api/1/final-plate-uuid/comments/1",
+    "last": "http://localhost:3000/api/1/final-plate-uuid/comments/1"
+  },
+  "size": 0,
+  "comments": []
+}

@@ -1,0 +1,4 @@
+GET /final-plate-uuid/comments HTTP/1.1
+Accept: application/json
+Cookie: WTSISignOn=
+X-Sequencescape-Client-Id: testing

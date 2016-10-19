@@ -119,7 +119,7 @@ namespace :config do
           presenters['ILC Lib Pool Norm'].merge!(
             :form_class           => 'Forms::TubesForm',
             :presenter_class      => 'Presenters::FinalTubePresenter',
-            :default_printer_uuid => barcode_printer_uuid.('h105bc2')
+            :default_printer_uuid => barcode_printer_uuid.('h105bc')
           )
           presenters['ILC QC Pool'].merge!(
             :form_class           => 'Forms::PooledTubesForm',

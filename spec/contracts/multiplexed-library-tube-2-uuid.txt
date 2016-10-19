@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+        "multiplexed_library_tube": {
+
+          "purpose": {
+            "uuid": "ilc-lib-pool-norm-uuid"
+          },
+          "barcode": {
+            "prefix": "NT",
+            "number": "2",
+            "ean13": "tube-2-ean13",
+            "type": 1
+          },
+
+          "uuid": "multiplexed-library-tube-2-uuid"
+        }
+      }
